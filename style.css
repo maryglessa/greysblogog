@@ -168,6 +168,18 @@ body {
    
 }
 
-.navbar {
+.navbar{
+    background-color:#bcdeeef8;
+    color:#000000b3;
+    padding: 5px;
     font-size: 1.5rem;
+}
+
+.offcanvas-title   .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.blog-name {
+    color: #04a6bd; /* Background color of your blog */
 }
