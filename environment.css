@@ -1,0 +1,80 @@
+body {
+    background-color: #99b0c0; /* Set the background color for the body */
+  }
+
+  .custom-container {
+    background-color: #bcdeeef8; /* Set the background color for the container */
+    padding: 40px; /* Add some padding for better visibility */
+    border: 1px solid gray;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+  }
+
+  .title {
+      font-size: 2.5rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: uppercase;
+  color:#04a6bd ;
+  text-decoration: underline;
+}
+
+.caption_env {
+  border: 1px solid gray;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.bck-btn_env {
+  margin-top: 4px;
+  margin-left: 5px;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: .8rem;
+  background: linear-gradient(to right,  #04a6bd 0%, #bcdeeef8 100%);
+}
+
+.custom-container img {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7)
+}
+
+.bck-btn_env:hover{
+  color: white;
+  background: linear-gradient(to right, #bcdeeef8 0%,  #04a6bd 100%);
+}
+
+.carousel-control-prev,
+  .carousel-control-next {
+    background: none;
+    border: none;
+    color: black; /* Set the color of the arrows */
+    font-size: 5rem; /* Adjust the font size as needed */
+  }
+
+  /* Optional: Customize the hover effect */
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background: none;
+    color: black; /* Set the color of the arrows on hover */
+  }
+.carousel-inner img {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    object-fit: cover;
+  }
+
+  .img-env {
+     align-items: center;
+  }
+
+ 
+
+  
